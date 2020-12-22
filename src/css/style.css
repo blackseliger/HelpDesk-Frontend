@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.block-tickets {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.header-block-tickets {
+    width: 100%;
+    border-bottom: solid;
+}
+
+.button-header {
+   margin-left: 80%;
+   margin-right: 20%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.button-add-ticket {
+    border-radius: 25px;
+    width: 100px;
+}
+
+.list-tickets {
+    width: 90%;
+}
+
+.block-list-ticket {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    margin: 10px;
+    border-color: azure;
+    padding: 10px;
+}
+
+.hide-block {
+    display: none;
+}
+
+.ticket-option-block {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+
+
+.popup-add-new {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    position: absolute;
+}
+
+.form-popup-block {
+    width: 100%;
+}
+
+.short-desc, .long-desc, .buttons-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.long-desc-text {
+    width: 140px;
+    max-width: 140px;
+    max-height: 50px;
+}
+
+.buttons-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-cancel {
+    margin-right: 10px;
+}
+
+
