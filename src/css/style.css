@@ -58,7 +58,7 @@ body {
 
 
 
-.popup-add-new {
+.popup-add-new, .popup-delete {
     width: 20%;
     padding: 10px;
     box-sizing: border-box;
@@ -97,6 +97,10 @@ body {
 
 .button-cancel {
     margin-right: 10px;
+}
+
+.popup-hide {
+    display: none;
 }
 
 

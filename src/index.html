@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <div class="block-tickets">
+    <div class="block-tickets">
         <div class="header-block-tickets">
             <div class="button-header">
                 <button class="button-add-ticket">Добавить тикет</button>
@@ -75,7 +75,7 @@
             </div>
         </div>
     </div>
-    <div class="popup-add-new">
+    <div class="popup-add-new popup-hide">
         <div class="header-popup">Добавить тикет</div>
         <div class="form-popup-block">
             <form action="" data-id="form-popup">
@@ -101,13 +101,25 @@
                 </div>
             </form>
         </div>
-    </div> -->
+    </div>
+    <div class="popup-delete popup-hide">
+        <div class="header-popup">Удалить тикет</div>
+        <form action="" data-id="form-popup-delete"></form>
+        <div class="buttons-block">
+            <div class="button-cancel">
+                <button class="popup-button-cancel">Отмена</button>
+            </div>
+            <div class="button-access">
+                <button class="popup-button">Ок</button>
+            </div>
+        </div>
+    </div>
 
-    <form action="" data-id="upload-form">
+    <!-- <form action="" data-id="upload-form">
         <input type="file" name="file" accept="image/*">
         <input type="text" name="name" value="My Photo">
         <button>Upload</button>
-    </form>
+    </form> -->
 
 </body>
 </html>
